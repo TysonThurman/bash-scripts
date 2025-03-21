@@ -1,1 +1,8 @@
 apropos - find useful commands "apropos upgrade"
+man -k [search terms] --this returns similar results like apropos
+
+----Logs to track-----
+tail -f syslog
+tail -f /var/log/auth.log
+tail -f /var/log/kern.log 
+tail -f /var/log/boot.log
