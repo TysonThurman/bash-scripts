@@ -6,3 +6,5 @@ tail -f syslog
 tail -f /var/log/auth.log
 tail -f /var/log/kern.log 
 tail -f /var/log/boot.log
+
+crontab --use this to schedule jobs
