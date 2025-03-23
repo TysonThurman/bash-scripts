@@ -8,3 +8,4 @@ tail -f /var/log/kern.log
 tail -f /var/log/boot.log
 
 crontab --use this to schedule jobs
+free -h --human readable memory usage
