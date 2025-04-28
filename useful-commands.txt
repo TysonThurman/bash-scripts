@@ -7,8 +7,14 @@ tail -f /var/log/auth.log
 tail -f /var/log/kern.log 
 tail -f /var/log/boot.log
 
-crontab --use this to schedule jobs
-free -h --human readable memory usage
+//Schedule jobs and tasks
+crontab
+
+//Memory usage
+free -h
+
+//Storage usage
+df -h
 
 // show which GPU is in use
 nvidia-smi
