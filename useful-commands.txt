@@ -9,3 +9,18 @@ tail -f /var/log/boot.log
 
 crontab --use this to schedule jobs
 free -h --human readable memory usage
+
+// show which GPU is in use
+nvidia-smi
+
+//Refresh above command every 1 second
+watch -n 1 nvidia-smi
+
+//Git commands to show the upstream and origin repositories
+git remote show origin 
+git remote -v
+
+//Show resource consumption and running processes
+btop
+
+
